@@ -5,7 +5,9 @@ Global: !omap
     NUKE_MULTY: <SETTINGS>/nuke/<VERSION>/nuke_EEP
 
 Nuke: !omap
-    FOUNDRY_LICENSE_FILE, foundry_LICENSE: 11111@blaa.aaa.com
+    NUKE_PATH: /App/Nuke1.0/bin
+    NUKE_EEP: /Server03/Nuke
+    # FOUNDRY_LICENSE_FILE, foundry_LICENSE: 11111@blaa.aaa.com
     NUKE_PATH:
         - <NUKE_PATH>
         - <NUKE_EEP>/gizmos
