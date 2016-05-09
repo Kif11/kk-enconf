@@ -1,0 +1,17 @@
+Global:
+    SETTINGS: /EEP/Tools/Settings
+    NUKE_EEP: <SETTINGS>/nuke/nuke_EEP
+
+Nuke:
+    FOUNDRY_LICENSE_FILE, foundry_LICENSE: 11111@blaa.aaa.com
+    NUKE_PATH:
+        - <NUKE_PATH>
+        - <NUKE_EEP>/gizmos
+        - <NUKE_EEP>/icons
+        - <NUKE_EEP>/nukescripts
+        - <NUKE_EEP>/plugins
+        - <NUKE_EEP>
+    OFX_PLUGIN_PATH:
+        - <NUKE_PATH>
+        - <NUKE_EEP>/ofx
+        - <NUKE_EEP>/ofx
