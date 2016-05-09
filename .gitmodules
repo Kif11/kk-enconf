@@ -1,0 +1,6 @@
+[submodule "modules/pyyaml"]
+	path = modules/pyyaml
+	url = https://github.com/yaml/pyyaml
+[submodule "modules/yaml"]
+	path = modules/yaml
+	url = https://github.com/Kif11/kk-yaml

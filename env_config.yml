@@ -1,8 +1,10 @@
-Global:
+Global: !omap
     SETTINGS: /EEP/Tools/Settings
+    VERSION: 7.0
     NUKE_EEP: <SETTINGS>/nuke/nuke_EEP
+    NUKE_MULTY: <SETTINGS>/nuke/<VERSION>/nuke_EEP
 
-Nuke:
+Nuke: !omap
     FOUNDRY_LICENSE_FILE, foundry_LICENSE: 11111@blaa.aaa.com
     NUKE_PATH:
         - <NUKE_PATH>
