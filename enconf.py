@@ -2,7 +2,7 @@ import os
 import re
 from modules import yaml
 from collections import deque
-from logger import Logger
+from modules.logger import Logger
 
 log = Logger()
 
@@ -106,8 +106,8 @@ def main():
     """
     Some test functions
     """
-    ec = EnConf('env_config.yml')
-    ec.set_env_vars()
+    ec = EnConf()
+    ec.from_file('./tests/env_test_config.yml')
 
 if __name__ == '__main__':
     main()
