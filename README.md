@@ -1,6 +1,6 @@
 # EnConf
 
-EnConf is Python environmental variable configutrator.
+EnConf is Python environmental variable configutrator. Support groups, multiple append and nested variables.
 
 Have you ever thought about to do better a job for your environment setup? Is this looks ugly to you? :unamused:
 
