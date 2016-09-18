@@ -1,6 +1,0 @@
-[submodule "modules/yaml"]
-	path = modules/yaml
-	url = https://github.com/Kif11/kk-yaml
-[submodule "modules/logger"]
-	path = modules/logger
-	url = https://github.com/Kif11/kk-logger

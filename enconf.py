@@ -1,8 +1,8 @@
 import os
 import re
-from modules import yaml
+import yaml
 from collections import deque
-from modules.logger import Logger
+from logger import Logger
 
 log = Logger()
 
