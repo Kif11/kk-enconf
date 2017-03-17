@@ -2,7 +2,7 @@
 
 EnConf is Python environmental variable configutrator. Support groups, multiple appends and nested variables.
 
-Have you ever thought about to do better a job for your environment setup? Is this looks ugly to you? :unamused:
+Have you ever thought about to do better a job for your environment setup? Is it looks ugly to you? :unamused:
 
 > os.environ['PYTHONPATH'] = os.environ['PYTHONPATH'] + os.path + os.path.normpath('/my/path')
 
